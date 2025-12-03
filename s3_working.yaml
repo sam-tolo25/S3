@@ -1,5 +1,7 @@
-AWSTemplateFormatVersion: 2019-09-09
-Resorces:
+#Version number change and S3 path
+# 12/2/2025
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
   S3Bucket:
     Type: 'AWS:S3:Bucket'
     Properties:
